@@ -1,0 +1,31 @@
+.search-products {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .search-title {
+    font-size: 25px;
+    font-weight: 900;
+    color: royalblue;
+  }
+
+  .input-block {
+      position: relative;
+    input {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 10px 20px 10px 40px;
+      display: block;
+      width: 100%;
+      font-size: 13px;
+    }
+
+    .search-icon {
+        position: absolute;
+        top: 48%;
+        left: 15px;
+        font-size: 15px;
+        transform: translateY(-52%);
+        color: rgb(196, 196, 196);
+    }
+  }
+}
